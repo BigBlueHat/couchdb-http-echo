@@ -1,7 +1,9 @@
 # couchdb-http-echo
 
-Echo's what CouchDB makes available to it's Request Object (which it in turn
-gives to _show, _list, and _update functions) when receiving an HTTP request.
+Echo's what [CouchDB](http://couchdb.apache.org) makes available to it's
+[Request Object](http://docs.couchdb.org/en/1.6.1/json-structure.html#request-object)
+(which it in turn gives to _show, _list, and _update functions) when receiving
+an HTTP request.
 
 Pretty handy for getting started with CouchApps!
 
