@@ -13,7 +13,7 @@ Grab [couchapp.py](http://github.com/couchapp/couchapp), then...
 ```
 $ couchapp push . http://{user}:{pass}@localhost:5984/couchdb-http-echo
 $ curl http://localhost:5984/couchdb-http-echo/_design/http-echo/_show/echo
-$ curl http://localhost:5984/couchdb-http-echo/_design/http-echo/_list/echo/all
+$ curl http://localhost:5984/couchdb-http-echo/_design/http-echo/_list/echo/_all_docs
 $ curl -X PUT http://localhost:5984/couchdb-http-echo/_design/http-echo/_update/echo
 ```
 
